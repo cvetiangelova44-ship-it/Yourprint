@@ -36,10 +36,10 @@ header {
 
 /* 40% större logga */
 .logo-box img {
-    height: 126px;      /* tidigare 90px → nu 40% större */
+    max-height: 100px;   /* styr loggans faktiska storlek */
     width: auto;
     object-fit: contain;
-    transform: scale(0.78);  /* gör att den passar perfekt i boxen */
+    border-radius: 12px;
 }
 
 /* NAVIGATION */
@@ -599,7 +599,7 @@ nav .cta {
 }
 
 .reviews-section {
-    background: #f2f2f2;
+    background: linear-gradient(135deg, #ff00ff, #00ffff);
     padding: 60px 20px;
     text-align: center;
 }

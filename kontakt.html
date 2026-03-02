@@ -41,25 +41,17 @@
         <div class="contact-left">
             <h2>Skicka ett meddelande</h2>
 
-            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="0ea2deca-611d-43f5-9599-3089932355d8">
+  <input type="hidden" name="redirect" value="https://cvetiangelova44-ship-it.github.io/Yourprint/tack.html">
 
-    <!-- Web3Forms nyckel -->
-    <input type="hidden" name="access_key" value="0ea2deca-611d-43f5-9599-3089932355d8">
-    <!-- Redirect efter skickat meddelande (valfritt) -->
-    <input type="hidden" name="redirect" value="https://cvetiangelova44-ship-it.github.io/Yourprint/tack.html">
+  <input type="text" name="name" placeholder="Ditt namn" required>
+  <input type="email" name="email" placeholder="Din e‑post" required>
+  <textarea name="message" placeholder="Meddelande" required></textarea>
 
-    <!-- Spam-skydd -->
-    <input type="checkbox" name="botcheck" style="display:none;">
-
-    <!-- Fält -->
-    <input type="text" name="name" placeholder="Ditt namn" required>
-
-    <input type="email" name="email" placeholder="Din e‑post" required>
-
-    <textarea name="message" placeholder="Meddelande" required></textarea>
-
-    <button type="submit">Skicka</button>
+  <button type="submit">Skicka</button>
 </form>
+
 
         </div>
 
